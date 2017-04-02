@@ -23,7 +23,7 @@
             android:id="@+id/imageView"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:paddingTop="5dp"
+            android:paddingTop="3dp"
             android:src="@drawable/login_lock" />
 
         <TextView
@@ -34,7 +34,7 @@
             android:paddingRight="20dp"
             android:paddingTop="9dp"
             android:text="@string/login"
-            android:textColor="@color/colorAccent"
+            android:textColor="#FFFFFF"
             android:textSize="23sp"
             android:textStyle="bold"></TextView>
 
