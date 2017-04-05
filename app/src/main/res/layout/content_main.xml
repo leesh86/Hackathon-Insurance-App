@@ -3,7 +3,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/linear_layout"
+    android:id="@+id/main_page_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_dark"
@@ -20,7 +20,7 @@
         android:gravity="right">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/login_icon_image_view"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:paddingTop="3dp"
@@ -41,7 +41,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/LinearLayout02"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_alignParentBottom="true"
@@ -63,7 +62,7 @@
         <!--android:textAllCaps="false">-->
         <!--</Button>-->
         <Button
-            android:id="@+id/Button01"
+            android:id="@+id/Button01_make_payment"
             style="@style/MainPageButton"
             android:text="@string/make_a_payment">
         </Button>
@@ -81,7 +80,7 @@
             <!--android:textStyle="bold">-->
         <!--</Button>-->
         <Button
-            android:id="@+id/Button02"
+            android:id="@+id/Button02_get_free_quote"
             style="@style/MainPageButton"
             android:text="@string/get_a_quote">
         </Button>
@@ -90,7 +89,6 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/LinearLayout03"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_alignParentBottom="true"
@@ -99,20 +97,19 @@
         android:weightSum="1">
 
         <Button
-            android:id="@+id/Button03"
+            android:id="@+id/Button03_manage_policies"
             style="@style/MainPageButton"
             android:text="@string/manage_policies">
         </Button>
 
         <Button
-            android:id="@+id/Button04"
+            android:id="@+id/Button04_view_id_cards"
             style="@style/MainPageButton"
             android:text="@string/view_id_cards">
         </Button>
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/LinearLayout04"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_alignParentBottom="true"
@@ -121,13 +118,13 @@
         android:weightSum="1">
 
         <Button
-            android:id="@+id/Button05"
+            android:id="@+id/Button05_visit_claims_center"
             style="@style/MainPageButton"
             android:text="@string/visit_claims_center">
         </Button>
 
         <Button
-            android:id="@+id/Button06"
+            android:id="@+id/Button06_tools_for_living"
             style="@style/MainPageButton"
             android:text="@string/tools_for_everyday_living">
         </Button>

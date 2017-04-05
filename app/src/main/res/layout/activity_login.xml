@@ -10,6 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.perfecto.lees.myapplication.LoginActivity">
 
+    <!--<include layout="@layout/app_bar"/>-->
+
     <!-- Login progress -->
     <ProgressBar
         android:id="@+id/login_progress"
@@ -32,7 +34,8 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:textColorHint="#46bdbf">
 
                 <AutoCompleteTextView
                     android:id="@+id/email"
@@ -47,7 +50,8 @@
 
             <android.support.design.widget.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:textColorHint="#46bdbf">
 
                 <EditText
                     android:id="@+id/password"
@@ -63,14 +67,49 @@
 
             </android.support.design.widget.TextInputLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/remember_me_switch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:switchMinWidth="50sp"
+                    android:theme="@style/Switch"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="25dp"
+                    android:text="@string/remember_me_switch"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
             <Button
                 android:id="@+id/sign_in_button"
                 style="?android:textAppearanceSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:text="@string/action_sign_in"
-                android:textStyle="bold" />
+                android:layout_marginTop="60dp"
+                android:text="@string/action_sign_in_short"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:background="@drawable/login_button"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/register_link"
+                android:layout_marginTop="50dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryDark" />
+
 
         </LinearLayout>
     </ScrollView>

@@ -44,6 +44,14 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
+        Button makeAPayment = (Button) findViewById(R.id.Button01_make_payment);
+        makeAPayment.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View sender) {
+                Intent i = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(i);
+            }
+        });
+
     }
 
     @Override
