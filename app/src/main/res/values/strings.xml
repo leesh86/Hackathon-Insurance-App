@@ -1,4 +1,5 @@
 <resources>
+    <!-- home page strings -->
     <string name="app_name">Shuka Digital</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -27,7 +28,8 @@
     <string name="remember_me_switch">Remember Me</string>
     <string name="register_link">Register for an account</string>
 
-
+    <!-- make a payment strings -->
+    <string name="title_activity_make_payment">Make a payment</string>
 
 
 </resources>
